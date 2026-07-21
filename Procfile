@@ -1,0 +1,17 @@
+Звіт про помилку
+java.io.FileNotFoundException: open failed: ENOENT (No such file or directory)
+	at android.database.DatabaseUtils.readExceptionWithFileNotFoundExceptionFromParcel(DatabaseUtils.java:151)
+	at android.content.ContentProviderProxy.openTypedAssetFile(ContentProviderNative.java:814)
+	at android.content.ContentResolver.openTypedAssetFileDescriptor(ContentResolver.java:2048)
+	at android.content.ContentResolver.openAssetFileDescriptor(ContentResolver.java:1863)
+	at android.content.ContentResolver.openFileDescriptor(ContentResolver.java:1694)
+	at android.content.ContentResolver.openFileDescriptor(ContentResolver.java:1640)
+	at l.ۙ᩸֡.<init>(S4GR:34)
+	at l.ܺ᩸֡.ۜ(C4X3:35)
+	at l.ܳ۬ۛ.ۜ(L16D:237)
+	at l.ۨ۬ۛ.call(C164:0)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1100)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:1572)
+	
