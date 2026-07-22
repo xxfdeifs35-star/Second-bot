@@ -15,7 +15,7 @@ MAX_PLAYERS = 456
 
 SUPABASE_URL = "https://etsfnhefcmonmjmwuhsk.supabase.co"
 SUPABASE_KEY = "sb_publishable_SFX8_Ml6TjzWnY3j7a7xMw_tkBk1zQv"
-BOT_TOKEN = "8766624154:AAFucLrqyoQ6_Og7lLWsccZRzS_W1CeUE00"  # ЗАМЕНИТЕ НА АКТУАЛЬНЫЙ ТОКЕН
+BOT_TOKEN = "8766624154:AAG_V4GnGKfvgD8Bol4UF2uDl1-ns_Yicx4"  # ЗАМЕНИТЕ НА АКТУАЛЬНЫЙ ТОКЕН
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise SystemExit("Задайте SUPABASE_URL и SUPABASE_KEY")
